@@ -1,7 +1,14 @@
+####################################################################################################
+# Name:           primeDesafio2KW.robot
+# Description:    Variaveis do projeto
+# Project:        Prime Hero Academy
+# Author:         Leandro Nunes - leandroaraujo120803@gmail.com
+####################################################################################################
+
 *** Variables ***
 
 ${IDADE}                 15
-${ANO_ATUAL}                   2023
+${ANO_ATUAL}             2023
 ${ANO2000}               2000
 
 ${NUMEROS_PARES}
@@ -19,4 +26,4 @@ ${NUMEROS_PARES}
 
 @{LISTA}                 A    1    B    2    C    3
 @{NUM_LIST}
-${MENSAGEM_ERRO}        Este item da lista é um Caractere
+${MENSAGEM_ERRO}         Este item da lista é um Caractere

@@ -1,3 +1,10 @@
+####################################################################################################
+# Name:           primeDesafio2KW.robot
+# Description:    BDD para automação de testes
+# Project:        Prime Hero Academy
+# Author:         Leandro Nunes - leandroaraujo120803@gmail.com
+####################################################################################################
+
 *** Settings ***
 Resource            ../src/primeDesafio2KW.robot
 

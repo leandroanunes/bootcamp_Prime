@@ -1,3 +1,10 @@
+####################################################################################################
+# Name:           primeDesafio2KW.robot
+# Description:    Keywords para automação de testes
+# Project:        Prime Hero Academy
+# Author:         Leandro Nunes - leandroaraujo120803@gmail.com
+####################################################################################################
+
 *** Settings ***
 Resource               ./primeVariables.robot
 
@@ -53,11 +60,11 @@ Separar numeros da lista
         # Tenta converter em numero inteiro, se der certo adiciona o numero na lista
         TRY
             ${NUM_INT}    Convert To Integer    ${ITEM}
-            Append To List    ${NUM_LIST}
+            Append To List    ${NUM_LIST}    ${NUM_INT}    
         # Se nao der certo, exibe a mensagem de erro
         EXCEPT    
             log    ${MENSAGEM_ERRO}            
-        # E axibe a mensagem com a lista só com numeros
+        # E exibe a mensagem com a lista só com numeros
         FINALLY
             Log                Nova lista de numeros: ${NUM_LIST}    # para exibir no report
             Log To Console     Nova lista de numeros: ${NUM_LIST}    # para exibir no console
