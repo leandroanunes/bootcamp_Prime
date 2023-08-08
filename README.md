@@ -2,13 +2,14 @@
 
 ## Conceitos Aplicados
 - BDD
-- Orientação a Objetos
 - Page Object
 - Automação de Testes
+- Manipulação de variaveis
+- Lógica de programação
 
 ## Ferramentas Utilizadas:
 - Python
 - Robot Framework
-- RequestsLibrary
-- Collections
 - VSCode
+- GitHub
+- Git
